@@ -1,0 +1,16 @@
+.footer{
+    background-color: #94B4E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    &_wrp{
+        max-width: 960px;
+        p{
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+
+    }
+}

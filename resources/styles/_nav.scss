@@ -1,0 +1,17 @@
+.nav{
+   height: 20px;
+   width: 100%;
+   padding: 2px 0;
+   background-color: #1F3354;
+   display: flex;
+   justify-content: center; 
+   &_wrp{
+    max-width: 960px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    p{
+        color: white;
+    }
+   }
+}
