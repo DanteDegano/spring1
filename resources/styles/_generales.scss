@@ -8,7 +8,6 @@
     display: flex;
     justify-content: center;
     padding: 0 20px;
-    margin-bottom: 20px;
     &_wrp{
         max-width: 960px;
         width: 100%;
@@ -22,7 +21,10 @@
             border: 20px solid #707070;
             &_top{
                 border-bottom: 10px solid #707070;
-                padding: 20px 20px 40px;
+                padding: 20px;
+                .card{
+                    width: 100%;
+                }
             }
             &_bottom{
                 padding: 20px;
@@ -39,10 +41,12 @@
 
 .banner{
     padding: 20px;
+    width: auto;
     height: 300px;
     background-color:#AAAAAA;
     margin-bottom: 20px;
     position: relative;
+    flex-shrink: 0;
     a{
         position: absolute;
         top: 0;

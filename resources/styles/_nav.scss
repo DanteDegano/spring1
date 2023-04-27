@@ -1,17 +1,53 @@
-.nav{
-   height: 20px;
-   width: 100%;
-   padding: 2px 0;
-   background-color: #1F3354;
-   display: flex;
-   justify-content: center; 
-   &_wrp{
-    max-width: 960px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    p{
-        color: white;
+.blog{
+    .nav{
+        height: 20px;
+        width: 100%;
+        padding: 2px 0;
+        background-color: #1F3354;
+        display: flex;
+        justify-content: center; 
+        &_wrp{
+         max-width: 960px;
+         width: 100%;
+         display: flex;
+         justify-content: flex-end;
+         p{
+             color: white;
+         }
+        }
+     }
+}
+
+.nosotros{
+    .nav{
+        background-color: #14094B;
+        width: 100%;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        &_wrp{
+            display: flex;
+            justify-content: flex-end;
+            max-width: 960px;
+            height: 100%;
+            width: 100%;
+            ul{
+                display: flex;
+                li{
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0 26px;
+                    color: white;
+                    &:hover{
+                        background-color: white;
+                        color: black;
+                    }
+                }
+            }
+        }
     }
-   }
 }
